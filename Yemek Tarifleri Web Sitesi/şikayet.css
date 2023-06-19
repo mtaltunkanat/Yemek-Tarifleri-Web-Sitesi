@@ -1,0 +1,36 @@
+body{
+ margin: 0;
+ padding: 0;
+
+ 
+}
+.review-form input{
+ display: block;
+ width: 20%;
+ padding: 0 16px;
+ height: 44px;
+ text-align: center;
+ box-sizing: border-box;
+ border: none;
+ text-decoration: none;
+}
+.review-btn{
+ margin-top: 5px;
+ margin-bottom: 5px;
+ background: #538fef;
+ color: #fff;
+ border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+   display: block;
+ }
+ .txt{
+margin: 5px 0; 
+border-radius: 20px; 
+}
+.review-btn:hover{
+ transform: scale(0.96);
+  background: rgb(255, 255, 255);
+  color: #538fef;
+}
+

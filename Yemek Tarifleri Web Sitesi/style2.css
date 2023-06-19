@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #131034;
+}
+.signup-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(7.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    overflow: hidden;
+}
+.signup-form h1{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 60px;
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+.txt{
+    margin: 20px 0; 
+    border-radius: 6px; 
+}
+.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: #538fef;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.signup-btn:hover{
+    transform: scale(0.96);
+    background: #fff;
+    color: #538fef;
+}
+.signup-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+.signup-form a:hover{
+    color: yellow;
+}
+.contact .row {
+    display: flex;
+    background-color: var(--black-color);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+ 
+.contact h3{
+    color: #fff;
+    font-size: 45px;
+    user-select: none;
+}
+
+.contact h1{
+    color: rgb(212, 210, 210);
+    font-size: 50px;
+}
+ 
+  .contact .row form {
+    flex: 1 1 450px;
+    padding: 1px 20px;
+    text-align: center;
+  }
+
+  .contact .row form .inputBox{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: var(--border);
+  }
+
+   .contact .row form .inputBox i{
+       color: rgb(183, 181, 181);
+       font-size: 20px;
+       padding-left: 20px;
+   } 
+    
+   .contact .row form .inputBox input{
+       width: 100%;
+       padding: 20px;
+       font-size: 17px;
+       color: #fff;
+       text-transform: none;
+       background: none;
+   }
+
+   .contact .row form .btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+   }
+
+   .contact .btn{
+    text-decoration: none;
+    border-radius: 44px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.8s;
+   }
+   

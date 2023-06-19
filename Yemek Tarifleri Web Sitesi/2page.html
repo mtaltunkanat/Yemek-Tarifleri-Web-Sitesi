@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+                              <meta charset="UTF-8">
+                              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                              <title>Yemek Tarifleri</title>
+                              <style>
+                                /*MENÜ*/
+                                *{
+                                   padding: 0;
+                                   margin: 0;
+                                   box-sizing: border-box;
+                                } 
+                                header{
+                                  background-color:black;
+                                  padding: 20px 20px; 
+                                }
+                                 nav{
+                                   display: inline-block;
+                                   width: calc(100% - 103px);
+                                   text-align: right;
+                                 } 
+                                 nav ul{
+                                   list-style-type: none;
+
+                                 }
+                                 nav ul li{
+                                      display: inline-block;
+                                      margin: 10px 25px;
+                                 }
+                                  .logo{
+                                   color: white;
+                                   text-decoration: none;
+                                   font-weight: bold;
+                                   font-size: 22px;
+                                   user-select: none;
+                                  }   
+                                   nav ul li a{
+                                      text-decoration: none;
+                                      color: #fff; 
+                                      padding: 15px 25px;
+                                      font-size: 22px;
+                                      transition: .5s;
+                                   }
+                                   nav ul li a:hover{
+                                       background-color: #fff;
+                                       color: black; 
+                                   }
+                                   /*MENÜ ALTINDAKİ RESİM KISMI*/
+                                    
+                                   #section-1{
+                                     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(9.jpeg);
+                                     background-position: top;  
+                                     padding: 12px; 
+                                     height: 850px;
+                                     width: 100%;
+                                     background-size: cover;
+                                   }
+                                   .btn-s1{
+                                      margin-left: 39%;
+                                      margin-top: 20%;
+                                      background-color: #2a2828;
+                                      color: white;
+                                      padding: 25px 20px;
+                                      font-size: 20px; 
+                                      border-radius: 25px;
+                                      transition: color 10ms; 
+                                      
+                                   }
+                                   .btn-s1:hover {
+                                        color: rgb(0, 0, 0);
+                                        background-color: #fff;
+
+                                   }
+                                   /*card*/
+                                   #section-2{
+                                        display: flex;
+                                        justify-content: space-around;
+                                        margin: 200px 0;
+                                   }
+                                   .card{
+                                        width: 20%;
+                                        box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4) ;
+                                        border-radius: 6px;
+                                   }
+                                   .card:hover{
+                                     opacity: 0.7;   
+                                   }
+                                   .container{
+                                        padding: 5px 20 px ;
+                                   }
+                                   .container p{
+                                       margin: 15px 0; 
+                                   }
+                                   img{
+                                        border-radius: 6px 6px 0 0 ;
+                                        width: 100%;
+                                   }
+                                   p{
+                                        font-size: 19px;
+                                   }
+                                   #section-3{
+                                        display: flex;
+                                        justify-content: space-around;
+                                        margin: 200px 0;
+                                   }
+                                   footer{
+                                      background-color: black;
+                                      color: #fff;
+                                      text-align: center;
+                                      font-size: 20px; 
+                                       padding: 20px 0;
+                                   }
+                              </style>
+</head>
+<body>
+       <header>
+          <a href="#" class="logo">LOGO</a>
+          <nav>
+               <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="page.html">Hakkımızda</a></li>
+                    <li><a href="2page.html">Yemek Tarifleri</a></li>
+                    <li><a href="3page.html">İletişim</a></li>
+                    <li><a href="4page.html">Giriş Yap</a></li>
+                    <li><a href="5page.html">Kayıt Ol</a></li>
+               </ul>
+          </nav>
+       </header>
+       <main>
+          <section id="section-1">
+              <a href="babafingo.html"> <button class="btn-s1">Şikayetleriniz ve Önerileriniz!</button></a>
+          </section>
+
+          <section id="section-2">
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div>
+              
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+          <section id="section-2">
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div>
+              
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+          <section id="section-2">
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div>
+              
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+
+              <div class="card">
+               <img src="9.jpeg" alt="">
+               <div class="container">
+                    <h2>lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium culpa corrupti laborum laudantium debitis iure! Ab dolore maiores, laborum consectetur dolorem perspiciatis ipsa ad vel quisquam harum. Perferendis, autem!</p>
+               </div>
+              </div> 
+          </section>
+       </main>
+       <footer>
+          Powered by Bizim İşler     
+       </footer>
+</body>
+</html>
