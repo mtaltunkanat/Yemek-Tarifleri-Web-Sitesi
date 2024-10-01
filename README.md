@@ -12,6 +12,9 @@
 -Location-
 ![4](https://github.com/user-attachments/assets/cdbeedcb-2a81-40da-83f5-d6d3a71fc840)
 
+-Notifications-
+![Ekran görüntüsü 2024-10-02 002604](https://github.com/user-attachments/assets/5f119c3e-155d-4db5-adcb-7c508fe84cd6)
+
 
 -Sign İn-
 ![Ekran görüntüsü 2024-10-02 001935](https://github.com/user-attachments/assets/e3e2214e-a59d-4e3d-a0f0-b5124e16b1eb)
