@@ -1,5 +1,7 @@
 # Yemek Tarifleri Web Sitesi
  Yemek Tarifleri Web Sitesi
+ Project Console: https://console.firebase.google.com/project/chat-app-cd456/overview
+Hosting URL: https://chat-app-cd456.web.app
 -Home-
 ![1](https://github.com/user-attachments/assets/af0aea09-c49e-4643-b1e7-cc8d137abf9f)
 
